@@ -1,1 +1,12 @@
+
+:root{
+    --primary-bg: #ffffff;
+    --secondary-bg: #6c50fc;
+    --secondary-medium: #ded8ff;
+    --secondary-light: #ded8ff;
+    --black-bg: #282f35;
+    --black-text: var(--black-bg);
+    --white-text: var(--primary-bg);
+    --gray-bg: #e5e8ee;
+}
 @import 'tailwindcss'

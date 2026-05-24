@@ -1,8 +1,9 @@
+import { Authentication } from "./pages/Authentication"
 
 const App = () => {
   return (
-    <div className='w-screen h-screen'>
-      App
+    <div className='w-screen '>
+      <Authentication/>
     </div>
   )
 }
