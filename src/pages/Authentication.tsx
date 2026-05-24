@@ -1,5 +1,5 @@
 import { useState, type SyntheticEvent } from "react";
-import { Box, Button, TextField } from "@mui/material";
+import { Box, TextField } from "@mui/material";
 import { Tab } from "@mui/material";
 import { TabList,TabContext, TabPanel } from "@mui/lab";
 import { AuthButtons } from "../components/reusable/AuthButtons";
@@ -33,14 +33,14 @@ export const Authentication = () => {
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa sed quis animi aliquid illo quidem repellendus modi? Fugit cum vero odio nobis harum blanditiis.</p>
                                 <TextField className="w-full" id="outlined-basic" label="Email Address" variant="outlined" />
                                 <TextField className="w-full" id="outlined-basic" label="Password" variant="outlined" />
-                                <AuthButtons width={"full"} height={""} color={"white"} bg={"(--secondary-bg)"} title={"Login to Dashboard"} size={"xl"}/>
+                                <AuthButtons width={"full"} color={"white"} bg={"(--secondary-bg)"} title={"Login to Dashboard"} size={"xl"}/>
 
                                 <div className="flex justify-center items-center w-full">
                                     <p className="border border-gray-300 flex-1"></p>
                                     <p className="px-2">or</p>
                                     <p className="border flex-1 border-gray-300 "></p>
                                 </div>
-                                <AuthButtons width={"full"} height={""} color={"white"} bg={"(--black-bg)"} title={"Login with Google"} size={"xl"}/>
+                                <AuthButtons width={"full"} color={"white"} bg={"(--black-bg)"} title={"Login with Google"} size={"xl"}/>
                             </TabPanel>
                             <TabPanel value="2">Item Two</TabPanel>
                         </TabContext>
