@@ -3,10 +3,18 @@
     --primary-bg: #ffffff;
     --secondary-bg: #6c50fc;
     --secondary-medium: #ded8ff;
-    --secondary-light: #ded8ff;
+    --secondary-light: #efebff;
     --black-bg: #282f35;
     --black-text: var(--black-bg);
     --white-text: var(--primary-bg);
-    --gray-bg: #e5e8ee;
+    --gray-light: #e5e8ee;
+    --gray-medium:#bebebe;
+    --gray-bg:#6d6d6d;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 @import 'tailwindcss'

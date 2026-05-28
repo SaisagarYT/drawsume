@@ -1,20 +1,27 @@
 
 export const Homepage = () => {
-    const list = [1,2,3,4,5];
+    // const list = [1,2,3,4,5];
   return (
-    <div className="w-2/3 h-5/6 bg-white shadow overflow-hidden rounded-t-2xl">
-        <div className="w-20 bg-(--black-bg) h-full flex flex-col justify-between">
-            <div>
-                {
-                    list.map((x, i) => (
-                        <div key={i} className="text-white">
-                            <span className={`w-full flex h-20 ${x === 1 ? 'bg-(--secondary-bg)' : ''} justify-center items-center text-2xl mb-1`}>{x}</span>
-                        </div>
-                    ))
-                }
+    <section className="w-screen flex-col flex h-screen bg-white shadow rounded-t-2xl">
+        <nav className="w-full h-10 bg-(--primary-bg) border border-gray-300">
+
+        </nav>
+        <div className="flex h-full w-full">
+            <div className="h-full w-8 bg-(--black-bg) border border-gray-300">
+
             </div>
-            <span className="w-full flex h-20 justify-center items-center text-2xl mb-1 text-white">6</span>
+            <div className="w-40 h-full bg-(--gray-light) border border-gray-300">
+
+            </div>
+           <div className="w-full h-full flex bg-amber-100 justify-between items-center">
+            <div className="flex flex-1 h-full bg-(--secondary-light)">
+
+            </div>
+            <div className=" w-60 h-3/4 r rounded-2xl bg-(--primary-bg) shadow">
+
+            </div>
+           </div> 
         </div>
-    </div>
+    </section>
   )
 }
